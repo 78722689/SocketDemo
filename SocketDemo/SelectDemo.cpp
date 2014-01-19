@@ -103,10 +103,13 @@ int _tmain(int argc, _TCHAR* argv[])
 				//TODO...
 				std::cout << "Write data." << std::endl;
 			}
+
+			++it;
 		}
 	}
 
-//	getchar();
+	closesocket(server);
+	WSACleanup();
 	return 0;
 }
 
