@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectDemo", "SocketDemo\SocketDemo.vcproj", "{6BF34FCD-B4BC-488A-B7F8-FEF55AFE6C40}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectDemo", "SelectDemo\SelectDemo.vcproj", "{6BF34FCD-B4BC-488A-B7F8-FEF55AFE6C40}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcproj", "{02B2D8D9-AF47-4AEF-8682-5480365A8E44}"
 EndProject
