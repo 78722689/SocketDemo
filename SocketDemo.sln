@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectDemo", "SocketDemo\So
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcproj", "{02B2D8D9-AF47-4AEF-8682-5480365A8E44}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPDemo", "IOCPDemo\IOCPDemo.vcproj", "{922CF682-9AFA-4855-85EB-FAB2B7BB50AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{02B2D8D9-AF47-4AEF-8682-5480365A8E44}.Debug|Win32.Build.0 = Debug|Win32
 		{02B2D8D9-AF47-4AEF-8682-5480365A8E44}.Release|Win32.ActiveCfg = Release|Win32
 		{02B2D8D9-AF47-4AEF-8682-5480365A8E44}.Release|Win32.Build.0 = Release|Win32
+		{922CF682-9AFA-4855-85EB-FAB2B7BB50AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{922CF682-9AFA-4855-85EB-FAB2B7BB50AE}.Debug|Win32.Build.0 = Debug|Win32
+		{922CF682-9AFA-4855-85EB-FAB2B7BB50AE}.Release|Win32.ActiveCfg = Release|Win32
+		{922CF682-9AFA-4855-85EB-FAB2B7BB50AE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
