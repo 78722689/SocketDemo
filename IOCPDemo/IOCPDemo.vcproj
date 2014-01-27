@@ -18,7 +18,7 @@
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory="..\bin\"
-			IntermediateDirectory=".\Output\"
+			IntermediateDirectory="..\Output\"
 			ConfigurationType="1"
 			CharacterSet="1"
 			>
