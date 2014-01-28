@@ -66,6 +66,29 @@ int main()
 			break;
 		}
 	}
+
+
+	//Start acceptance clients
+	while (true)
+	{
+		SOCKADDR_IN clientAddress = {0};
+		int length = sizeof(clientAddress);
+		SOCKET client = WSAAccept(server, (SOCKADDR*)&clientAddress, &length, 0, 0);
+		if (INVALID_SOCKET == client)
+		{
+			std::cout << "Accept one invalid socket." << std::endl;
+			continue;
+		}
+
+		if (NULL == CreateIoCompletionPort((HANDLE)client, hServerCompletionPort, server))
+		{
+			std::cout << "Failed to create completion port for client." << std::endl;
+			continue;
+		}
+
+
+	}
+
 	return 1;
 }
 
